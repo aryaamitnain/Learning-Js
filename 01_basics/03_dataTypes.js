@@ -5,7 +5,7 @@
 const isLogedIn = false;
 const outsideTemp = null;
 let UserEmail;
-
+ 
 const Id = Symbol('123')
 const anotherId = Symbol('123')
 
