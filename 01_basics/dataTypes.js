@@ -21,9 +21,34 @@ const BigNumber = 3865936945799087480957973487n
 const names = ["Amit", "Rahul", "gaurav"];
 let myobj = {name: "Amit", age: 24, gender: "Male",};
 
-console.log(typeof(names));
-console.log(typeof(myobj));
+// console.log(typeof(names));
+// console.log(typeof(myobj));
 
 function myfunction(){
     
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory types -----------------
+
+// Stack (Primitive),   Heap(non-Premitive)
+
+let myname = "Amit Nain"
+
+let anothername = myname
+anothername = "New Name"
+
+console.log(anothername);
+console.log(myname);
+
+let userOne = {
+    email:"user@gmail.com",
+    contact: 903435,
+}
+let userTwo = userOne;
+
+userTwo.email = "amit@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
