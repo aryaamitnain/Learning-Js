@@ -16,20 +16,22 @@ const gameName = new String('amit-hc-com')
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
-console.log(newString);
+// const newString = gameName.substring(1, 5)
+// console.log(newString);
 
-// const anotherString = gameName.slice(-8, 4)
+// const anotherString = gameName.slice(-9, -2)
 // console.log(anotherString);
 
-// const newStringOne = "   amit nain   "
+const newStringOne = "   amit nain   "
 // console.log(newStringOne);
-// console.log(newStringOne.trim());
+// console.log(newStringOne.trim())
+// console.log(newStringOne.trimStart())
+// console.log(newStringOne.trimEnd())
 
-// const url = "https://hitesh.com/hitesh%20choudhary"
 
-// console.log(url.replace('%20', '-'))
+const url = "https://hitesh.com/hitesh%20choudhary"
 
-// console.log(url.includes('sundar'))
+// console.log(url.replace("%20", "-"))
+// console.log(url.includes('hitesh'))
 
-// console.log(gameName.split('-'));
+console.log(url.split('.'))
