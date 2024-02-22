@@ -9,18 +9,23 @@ const names = ["amit", "rohit", "gaurav"]
 // methods
 
 // myArray.push(6);
-// myArray.push(7);
+// myArray.push(8);
 // myArray.pop();
+
+// console.log(myArray);
 
 // myArray.unshift(5);
 // myArray.shift();
 
+// console.log(myArray);
+
+
 // console.log(myArray.includes(7));
-// console.log(myArray.indexOf(4));
+// console.log(myArray.indexOf(3));
 
 let newArray = myArray.join()
 
-// console.log(newArray);
+console.log(newArray);
 // console.log(typeof(newArray));
 
 console.log("A", myArray);
