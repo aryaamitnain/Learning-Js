@@ -12,9 +12,9 @@ const JsUser = {
     [mySym]: "mykey1",
     age: 18,
     location: "Delhi",
-    email: "hitesh@google.com",
+    email: "aryaamitnain08@gmail.com",
     isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+    lastLoginDays: ["Monday", "Wednesday"]
 }
 
 // console.log(JsUser.email)
@@ -22,9 +22,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "aryaamitnain08@gmail.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "aryaamitnain08@gmail.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){
