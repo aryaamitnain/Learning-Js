@@ -41,3 +41,22 @@ const user = [
 // console.log(Object.keys(tinderuser));
 // console.log(Object.values(tinderuser));
 
+const course = {
+    coursename: "JS in hindi",
+    price: 1000,
+    courseinstructor: "Hitesh choudhary"
+}
+
+// console.log(course.courseinstructor);
+
+const {courseinstructor: instructor} = course
+console.log(instructor);
+
+
+// how we get API, in json ( we usually get in this format but not in every case )
+// {
+//     "name":"Amit Nain",
+//     "coursename": "JS in Hindi",
+//     "fees": "1000"
+// }
+
